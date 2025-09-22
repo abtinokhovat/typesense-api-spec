@@ -2363,6 +2363,10 @@ components:
             minLength: 1
             maxLength: 1
           default: []
+        fields:
+          type: array
+          items:
+            $ref: "#/components/schemas/Field"
         embed:
           type: object
           required:
